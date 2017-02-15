@@ -1,6 +1,6 @@
 ---
 layout: default
-img: andrew-harcourt.png
+img: https://gravatar.com/avatar/26c73be81cda35268fb6f8aeb3f3664e?s=400
 category: Services
 title: Andrew Harcourt
 description: |
