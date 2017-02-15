@@ -164,3 +164,22 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+a.find-out-more-button {
+    top: 20px;
+    position: relative;
+}
+
+a.find-out-more-button, #subscribeButton {
+    color: white;
+    font-size: 18px;
+    background: #1ea51e;
+    padding: 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+form.subscribe {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
