@@ -185,3 +185,7 @@ form.subscribe {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
 }
+
+form.subscribe .ctabutton {
+    margin-top: 20px;
+}
