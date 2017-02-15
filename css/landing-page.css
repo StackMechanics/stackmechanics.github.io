@@ -170,7 +170,7 @@ a.find-out-more-button {
     position: relative;
 }
 
-a.ctabutton, button.ctabutton, a.ctabutton::active, button.ctabutton::active, a.ctabutton::hover, button.ctabutton::hover {
+a.ctabutton, button.ctabutton, a.ctabutton:active, button.ctabutton:active, a.ctabutton:hover, button.ctabutton:hover {
     border: none;
     color: white;
     font-size: 18px;
