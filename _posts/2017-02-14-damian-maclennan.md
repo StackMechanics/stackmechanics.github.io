@@ -1,6 +1,6 @@
 ---
 layout: default
-img: damian-maclennan.png
+img: damian-maclennan.jpg
 category: Services
 title: Damian Maclennan
 description: |
