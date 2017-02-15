@@ -1,7 +1,7 @@
 ---
 layout: default
-img: damian-maclennan.jpg
-category: Services
+img: /img/bios/damian-maclennan.jpg
+category: Bio
 title: Damian Maclennan
 description: |
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-img: nicholas-blumhardt.jpg
-category: Services
+img: /img/bios/nicholas-blumhardt.jpg
+category: Bio
 title: Nicholas Blumhardt
 description: |
 ---
