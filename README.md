@@ -1,5 +1,3 @@
 # Stack Mechanics Website
 
-
-## Blah
-
+https://stackmechanics.com/
