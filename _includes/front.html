@@ -94,9 +94,8 @@
     </div>
     <div class="container">
         <div class="row">
-            {% for trainer in site.trainers reversed %}
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                <div class="trainer {{thecycle}}">
+            {% for trainer in site.trainers %}
+                <div class="trainer">
                     <div class="photo">
                         <img class="img-responsive" src="{{ trainer.img }}" alt="">
                     </div>
