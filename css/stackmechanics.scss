@@ -1,0 +1,18 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'bootstrap';
+@import 'landing-page';
+
+.stackmechanics {
+    .trainer {
+        @extend .col-md-4;
+
+        .bio {
+        }
+
+        .photo {
+        }
+    }
+}

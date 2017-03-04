@@ -1,0 +1,114 @@
+<section id="home">
+	<div class="intro-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="intro-message">
+						<h1>{{page.hero}}</h1>
+						<h3>{{page.subTitle}}</h3>
+						<br/>
+
+						<a class="page-scroll find-out-more-button ctabutton" href="#contact">Find out more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="about" class="container content-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Modern enterprise application architecture relies on a huge array of patterns and technologies. We'll take you through the process of building resilient, production ready applications and teach you all the patterns, tools, and techniques to deliver successfully.</p>
+            <p>We'll cover topics such as:</p>
+            <ul>
+                <li>Design Patterns for maintainable software</li>
+                <li>Test Driven Development</li>
+                <li>DevOps practices such as Monitoring and Instrumentation</li>
+                <li>Continuous Deployment</li>
+                <li>Configuration patterns</li>
+                <li>REST API Implementation</li>
+                <li>Microservices</li>
+                <li>Asynchronous Messaging</li>
+                <li>Scaling and caching</li>
+                <li>Legacy system integration and migration</li>
+            </ul>	                
+            <p>Sign up to our mailing list for more information on course details and dates, as well as early bird pricing for you and your team.</p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+	<div class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>We're currently scheduling dates for 2017</h2>
+					<p>Let us know when and where you'd like to train with us, and we'll notify you as soon as
+						dates are announced.
+					</p>
+				</div>
+				<div class="col-lg-6">
+					<form action="https://stackmechanics.createsend.com/t/d/s/pthtrh/" method="post" class="subscribe">
+						<div class="form-group">
+							<label for="fieldName">Name</label><br />
+							<input id="fieldName" name="cm-name" type="text" class="form-control"/>
+						</div>
+						<div class="form-group">
+							<label for="fieldEmail">Email</label><br />
+							<input id="fieldEmail" name="cm-pthtrh-pthtrh" type="email" required  class="form-control"/>
+						</div>
+						<div class="form-group">
+							<label for="fieldukgdd">City</label><br />
+							<select id="fieldukgdd" name="cm-fo-ukgdd" class="form-control">
+								<option value=""></option>
+								<option value="1474950">Sydney</option>
+								<option value="1474951">Melbourne</option>
+								<option value="1474952">Brisbane</option>
+								<option value="1474953">Other</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="fieldukgdh">What would be your preference for deep dive training?</label><br />
+							<select id="fieldukgdh" name="cm-fo-ukgdh" class="form-control">
+								<option value=""></option>
+								<option value="1474954">One Day</option>
+								<option value="1474955">Three Days</option>
+								<option value="1474956">Five Days</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="ctabutton">Register Your Interest</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="trainers">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Trainers</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {% for trainer in site.trainers reversed %}
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                <div class="trainer {{thecycle}}">
+                    <div class="photo">
+                        <img class="img-responsive" src="{{ trainer.img }}" alt="">
+                    </div>
+                    <div class="bio">
+                        
+                        <div class="clearfix"></div>
+                        <h3 class="section-heading">{{ trainer.title }}</h3>
+                        <div class="lead">{{ trainer.content }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

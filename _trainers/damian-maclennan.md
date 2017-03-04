@@ -1,9 +1,7 @@
 ---
 layout: default
 img: /img/bios/damian-maclennan.jpg
-category: Bio
 title: Damian Maclennan
-description:
 twitter: damianm
 web: http://damianm.com
 ---

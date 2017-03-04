@@ -33,3 +33,11 @@ social:
   - title: email
     icon: envelope-o
     url: mailto:hello@stackmechanics.com
+
+collections:
+  trainers:
+    output: false
+
+sass:
+  style: compressed
+  
