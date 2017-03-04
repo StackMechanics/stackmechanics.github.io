@@ -5,7 +5,16 @@
 @import 'bootstrap';
 @import 'landing-page';
 
+$delta: 5px;
+$element-spacing: $delta * 2;
+$layout-spacing: $delta * 4;
+
 .stackmechanics {
+    #about {
+        padding-top: $layout-spacing;
+        padding-bottom: $layout-spacing;
+    }
+
     .trainer {
         @extend .col-md-4;
 
