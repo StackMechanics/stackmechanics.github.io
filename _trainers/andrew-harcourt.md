@@ -1,6 +1,6 @@
 ---
 layout: default
-img: https://gravatar.com/avatar/26c73be81cda35268fb6f8aeb3f3664e?s=400
+img: /img/bios/andrew-harcourt.jpg
 title: Andrew Harcourt
 description: |
 ---
