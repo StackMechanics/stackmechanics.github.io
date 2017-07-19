@@ -10,6 +10,11 @@ $element-spacing: $delta * 2;
 $layout-spacing: $delta * 4;
 
 .stackmechanics {
+    a.navbar-brand img {
+        height: 30px;
+        margin-top: -5px;
+    }
+
     #about {
         padding-top: $layout-spacing;
         padding-bottom: $layout-spacing;
