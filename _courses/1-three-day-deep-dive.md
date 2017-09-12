@@ -7,10 +7,6 @@ dates:
       city: Brisbane
       venue: Brisbane Powerhouse
       booking-link: https://tickets.lup.com.au/stackmechanics-brisbane
-#    - dates: 6 - 8 Dec 2017
-#      city: Sydney
-#      venue: TBA
-#      booking-link: http://google.com/
     
 ---
 Modern enterprise application architecture relies on a huge array of patterns and technologies. We'll take you through the process of building resilient, production ready applications and teach you all the patterns, tools, and techniques to deliver successfully.
