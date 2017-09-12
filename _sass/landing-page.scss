@@ -26,6 +26,22 @@ h6 {
     font-weight: 400;
 }
 
+.course {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.courserow {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bio {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -180,6 +196,19 @@ a.ctabutton, button.ctabutton, a.ctabutton:active, button.ctabutton:active, a.ct
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
+a.bookbutton, a.bookbutton:active, a.bookbutton:hover{
+    border: none;
+    color: white;
+    font-size: 16px;
+    background: #1ea51e;
+    padding: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 
 form.subscribe {
     background: rgba(255, 255, 255, 0.2);

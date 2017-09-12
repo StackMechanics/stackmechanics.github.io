@@ -37,6 +37,8 @@ social:
 collections:
   trainers:
     output: false
+  courses:
+    output: false
 
 sass:
   style: compressed

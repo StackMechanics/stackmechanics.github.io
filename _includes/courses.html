@@ -1,0 +1,40 @@
+<section id="courses" class="container content-section">
+    <div class="row">
+        <div class="col-lg-12 lead">
+            <h2>Upcoming Courses and Workshops</h2>
+        </div>
+    </div>
+    {% for course in site.courses %}
+    <div class="row">
+        <div class="col-lg-12 course">
+            {% if course.show == true %}
+            <h3>{{course.title}}</h3>
+            {{course.content}}
+
+            
+        </div>
+    </div>
+
+    {% for date in course.dates %}
+    <div class="row course courserow">
+        <div class="col-lg-3"><strong>{{date.city}}</strong></div>
+        <div class="col-lg-3">{{date.dates}}</div>
+        <div class="col-lg-3">{{date.venue}}</div>
+        <div class="col-lg-3"><a href="{{date.booking-link}}" class="bookbutton">Book Now</a>
+        </div>
+        
+    </div>
+    {% endfor %} 
+
+    {% unless course.dates %} 
+    <div class="row">
+        <div class="col-lg-12 course">
+            <p>We're currently planning dates for this course. Sign up for the <a href="#contact" class="page-scroll">mailing list</a> and we'll be in touch.</p> 
+        </div>
+    </div>
+    {% endunless %} 
+
+    {% endif %}
+    {% endfor %}
+
+</section>
