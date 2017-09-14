@@ -29,4 +29,12 @@ $layout-spacing: $delta * 4;
         .photo {
         }
     }
+
+    .lead {
+        margin-top: 20px;
+    }
+
+    p, ul {
+        margin-bottom: 20px;
+    }
 }
