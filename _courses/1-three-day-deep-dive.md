@@ -23,4 +23,4 @@ We'll cover topics like:
 * Scaling and caching
 * Legacy system integration and migration
 
-We won't just cover theory though. Working in small groups, course particpants will build a microservice architecture to solve a real world business problem.
+We won't just cover theory though. Working in small groups, course participants will build a microservice architecture to solve a real world business problem.
