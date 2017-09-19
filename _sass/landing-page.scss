@@ -44,7 +44,7 @@ h6 {
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-keyb-bg.jpg) no-repeat center center;
@@ -207,6 +207,7 @@ a.bookbutton, a.bookbutton:active, a.bookbutton:hover{
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -217,4 +218,8 @@ form.subscribe {
 
 form.subscribe .ctabutton {
     margin-top: 30px;
+}
+
+ul.nav.navbar-nav {
+    margin-bottom: 0;
 }
