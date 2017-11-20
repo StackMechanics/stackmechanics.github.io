@@ -3,10 +3,7 @@ layout: default
 title: Deep Dive .NET Architecture and Microservices
 show: true
 dates:
-    - dates: 6 - 8 November 2017
-      city: Brisbane
-      venue: Brisbane Powerhouse
-      booking-link: https://tickets.lup.com.au/stackmechanics-brisbane
+
     
 ---
 Modern enterprise application architecture relies on a huge array of patterns and technologies. We'll take you through the process of building resilient, production ready applications and teach you all the patterns, tools, and techniques to deliver successfully.
